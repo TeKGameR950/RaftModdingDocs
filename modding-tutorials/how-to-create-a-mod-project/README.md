@@ -36,7 +36,7 @@ The folder is by default located in _**Documents\RaftModding\YourProjectName\You
 
 ![](<../../.gitbook/assets/aa (4).PNG>)
 
-Create a shortcut of this folder. **Its the folder that contains the`modinfo.json`file and the`.cs`file(s).** _The main folder should also work, but we highly recommend you to create a shortcut of the second one._&#x200C;
+Create a shortcut of this folder. **Its the folder that contains the`modinfo.json`file and the`.cs`file(s).** \_The main folder should also work, but we highly recommend you to create a shortcut of the second one.\_‌
 
 **6)** Now, let's start the mod loader, Load our mod and open the console using F10 to see what's happening.‌
 
@@ -52,7 +52,7 @@ As you can see when you press F10 it executes the code in the Start() method.‌
 
 ![](<../../.gitbook/assets/image (7) (1).png>)
 
-If you want to know more about this file, how to add an icon, what is the excludedFiles field etc, click below.[The modinfo.json file/modding-tutorials/how-to-create-a-mod-project/the-modinfo.json-file‌](/broken/pages/-MDQ-pfs2ravutvpLmU9)
+If you want to know more about this file, how to add an icon, what is the excludedFiles field etc, click below.[The modinfo.json file/modding-tutorials/how-to-create-a-mod-project/the-modinfo.json-file‌](broken-reference/)
 
 **8)** Now that you know how to write your mod and how to change its information to build it, simply generate the visual studio project and our build script will automatically pack/build your mod as shown below. The build script will generate a new file named `YourModName.rmod` This file is the mod file to upload on our [site](https://www.greenhellmodding.com/) and to put in the mods folder.‌
 

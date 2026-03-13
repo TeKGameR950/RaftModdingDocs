@@ -30,6 +30,12 @@ The Raft folder should now look like this:
 
 <figure><img src="../../.gitbook/assets/grafik (37).png" alt=""><figcaption></figcaption></figure>
 
+Before moving to the next step, make sure the shim file is executable. The shim file can be set as executable by opening the file properties in your file manager or running the following command inside of your terminal.
+
+```bash
+chmod +x shim
+```
+
 ### 2. Setting up the launch parameters inside of Steam
 
 First open Steam. Next go into your Steam Library, go to Raft, right-click onto the game and click on properties.
@@ -37,14 +43,14 @@ First open Steam. Next go into your Steam Library, go to Raft, right-click onto 
 On the general tab you'll find an input field called launch options. Add the following into that field:
 
 ```bash
-WINEDLLOVERRIDES="winhttp.dll=n,b" ./shim %command%
+./shim %command%
 ```
 
-<figure><img src="../../.gitbook/assets/546483669-41760890-d9f4-4c0e-96bc-64eadc8abf77.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik.png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Preparing the target file
 
-Now startup Raft on Steam. The game should start up as usual. Close it is done starting.
+Now startup Raft on Steam. The game should start up as usual. Close it once it is done starting.
 
 Go back into your Raft game directory. There should now be a new file called 'target'. Open the file and replace Raft.exe with RMLLauncher.exe as seen below
 
@@ -60,7 +66,7 @@ Startup Raft on Steam. You should now see the mod launcher coming up. Go through
 
 Press play and the game should start with mods! You should see this mod menu once the game reaches the main menu:
 
-<figure><img src="../../.gitbook/assets/grafik.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/grafik (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you encounter any issues or the guide doesn't seem to work for you, please visit the #support-tickets channel on our [Discord](https://www.raftmodding.com/discord).\
